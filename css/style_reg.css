@@ -1,0 +1,77 @@
+#content_r {
+	background: #fff;
+	
+	padding: 20px 35px;
+	width: 40%;
+	
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+	
+	border-radius: 8px;
+	
+	
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+.table_r td{
+	height: 25px;
+	padding-left: 5px;
+	
+}
+
+.form_r input[type="text"]{
+	
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+  
+   background: #ffffff;
+   outline: none;
+   height: 24px; 
+   width: 240px; 
+   
+   font-size: 11px; 
+   font-family: Tahoma;
+}
+
+.form_r input[type="password"]{
+	padding-left: 0px;
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   
+   background: #ffffff;
+   outline: none;
+   height: 24px; 
+   width: 240px; 
+   margin-bottom: 0em;
+   font-size: 11px; 
+   font-family: Tahoma;
+}
+.form_r input[type="email"]{
+	
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+    
+   background: #ffffff;
+   outline: none;
+   height: 24px; 
+   width: 240px; 
+   margin-bottom: 0em;
+   font-size: 11px; 
+   font-family: Tahoma;
+}
+.messagebox{
+   font-size: 11px;
+ 
+}
+.messageboxok{
+   font-size: 11px;
+   color:#008000;
+}
+.messageboxerror{
+   font-size: 11px;
+   color:#CC0000;
+}
+.instructions{
+   font-size: 12px;
+}

@@ -1,0 +1,35 @@
+<html>
+
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style_main.css" media="screen" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/login.js" charset="utf-8"></script> <!-- скрип для фоновой проверки введенных логина и пароля-->
+	<title>Login page</title>
+
+	</head>
+	
+	<body>
+	
+		<div id="login-form">
+			<h1>Авторизация на сайте</h1>
+
+			<fieldset>
+				<form id = "login">
+					<input type="text" required id = "login_in" value="Логин" onBlur="if(this.value == '') this.value = 'Логин'" onFocus="if(this.value == 'Логин') this.value = ''">
+					<input type="password" required id = "password_in" value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль'" onFocus="if(this.value == 'Пароль') this.value = ''">
+					<input type="submit" value="ВОЙТИ">
+					<footer class="clearfix">
+						<p>
+							<a href="register.html">Регистрация</a>
+						</p>
+						<span id = "wrong"> </span> <!-- поле для отображения ошибки авторизации-->
+					</footer>
+				</form>
+			</fieldset>
+
+		</div>
+	
+	</body>
+	
+</html>

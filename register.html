@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style_main.css" media="screen" type="text/css" />
+		<link rel="stylesheet" href="css/style_reg.css" media="screen" type="text/css" />
+		<title>Register page</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="js/check.js" charset="utf-8"></script> <!-- скрипт для фонового отображения корректности введенных пользователем данных и отправки данных на сервер-->
+	</head>
+	
+	<body>
+	
+		<div id="content_r" >
+			<div style = "text-align: right;"><a href = "login.html"> Авторизация </a></div>
+			<h1> Регистрация </h1> 
+			<span id = "msg_t"> </span> <!-- поле для отображения ошибки ограничения регистрации-->
+			<form class="form_r" id = "form_reg">
+				
+				<hr>
+				
+				<table class = "table_r">
+				<!-- Блок для ввода логина и отображения статуса введенного логина-->
+					<tr>
+						<td></td> <td id = "msg_u"></td>
+					</tr>
+					
+					<tr>
+						<td>Введите логин:</td> <td><input type = "text" id = "username" required></td> <td class = "instructions"> Цифры, буквы английского алфавита, -, _ </td>
+					</tr>
+				<!-- Блок для ввода паролей и отображения статула введенных паролей-->
+					<tr>
+						<td></td> <td id = "msg_p1"></td>
+					</tr>
+		
+					<tr>
+						<td>Введите пароль:</td> <td><input type = "password" id = "pas1" required></td> <td class = "instructions"> Минимальная длина пароля 8 символов </td>
+					</tr>
+		
+					<tr>
+						<td></td> <td id = "msg_p2"></td>
+					</tr>
+				
+					<tr>
+						<td>Повторите пароль:</td> <td><input type = "password"  id = "pas2" required></td>
+					</tr>
+				<!-- Блок для ввода e-mail и отображения статуса введенного e-mail-->
+					<tr>
+						<td></td> <td id = "msg_e"></td>
+					</tr>
+		
+					<tr>
+						<td>Введите e-mail:</td> <td><input type = "email" id = "email" required></td> <td class = "instructions"> Пример: user@host.com </td>
+					</tr>
+		
+		
+				</table>
+				<br>
+				<hr>
+				<input type="submit">
+			</form>
+       
+		</div>
+
+	</body>
+	
+</html>

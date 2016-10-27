@@ -1,4 +1,4 @@
-$(document).ready(function ()
+﻿$(document).ready(function ()
 {
 	
 	$("#login").submit(auth); // вешаем на форму авторизации событие которое срабатывает когда нажата кнопка "Отправить" или "Enter"
